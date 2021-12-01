@@ -11,6 +11,19 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newAge",
+						"type": "uint256"
+					}
+				],
+				"name": "dynamicSetter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getAge",
 				"outputs": [
@@ -38,7 +51,46 @@
 			},
 			{
 				"inputs": [],
+				"name": "getter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "setAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newName",
+						"type": "string"
+					}
+				],
+				"name": "setName",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -46,6 +98,13 @@
 			{
 				"inputs": [],
 				"name": "setStateVar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setter",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -105,11 +164,11 @@
 	},
 	"sources": {
 		"contracts/identity.sol": {
-			"keccak256": "0x271202f2a073f29ac76e9eaf1ac7b0facb51ac0af6c15f4b73a568be86aa4bed",
+			"keccak256": "0xf6e9911fc722b5ebd65034c0c50520f9c31bb02d5eafd1bdcc44f327c0f969da",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://dd6553e74f1056b5a0eefa41e5077ffacb318a2f12ad81ad539ab0fab010472d",
-				"dweb:/ipfs/QmSDnCsKNgpmYr9JpRdx5MaEtiDbUisqrvWMb2kDTvgkoq"
+				"bzz-raw://e7d632f362ed71950f5ebe767fbd6a3156345aa5f6ff2980080ad38cd281aab0",
+				"dweb:/ipfs/QmbqE6HozD5YQSAx34XCDNTDuM7NnURGoqtk6iwD7UG5Bw"
 			]
 		}
 	},

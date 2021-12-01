@@ -7,8 +7,8 @@ contract Identity{
     uint age = 10; // state variable & unsigned integer
     uint public stateVar; // state variable
 
-    constructor(){
-        name = "Badal Harit";
+    constructor(string memory yourName){
+        name = yourName;
         age = 26;
         stateVar = 123;
     }
@@ -45,6 +45,7 @@ contract Identity{
     function dynamicSetter(uint newAge) public{
         age = newAge;
     }
+    
     function setName(string memory newName) public{
         name = newName;
     }

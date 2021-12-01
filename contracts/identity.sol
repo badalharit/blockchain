@@ -28,4 +28,9 @@ contract Identity{
     function setStateVar() public{
         stateVar = 456;
     }
+
+    function store() pure public returns(uint){
+        uint fatherAge = 42; // Local variable that has stored in the stack only, not in the contract memory like state variables that'll consume gas fees
+        return fatherAge;
+    }
 }

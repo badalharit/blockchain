@@ -69,6 +69,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "myArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "myIntVar",
 				"outputs": [
@@ -97,6 +116,24 @@
 			{
 				"inputs": [],
 				"name": "setAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "index",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "setArray",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -183,11 +220,11 @@
 	},
 	"sources": {
 		"contracts/identity.sol": {
-			"keccak256": "0xc908334e216c36f263dcd00c87dbddf3370590148ccb1d5176267f50290da466",
+			"keccak256": "0xdbc7da37cdcab0e533fd2890da2044a7756cbe9ee71678eb9a018f7a9ba59e25",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e7893d166a4b0a95160aa85e00e54acc5139529a8788e4928d9308f45abc0250",
-				"dweb:/ipfs/QmVxQnetoqQNSuN5QJwEfciYEjXs3zzb6aq83VMA6KLtGr"
+				"bzz-raw://54ca4dcd73efa44e422f40490fd616b46f1f8357012daf61eb52339f71482d9e",
+				"dweb:/ipfs/QmS71eG1C4e9LT9t9tLbiQonb7wU8z4HfVx6t7FzPz9Hb8"
 			]
 		}
 	},

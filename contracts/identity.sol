@@ -7,12 +7,14 @@ contract Identity{
     uint age = 10; // state variable & unsigned integer
     uint16 public stateVar; // state variable
     int8 public myIntVar;
+    uint[4] public myArray;
 
     constructor(string memory yourName){
         name = yourName;
         age = 26;
         stateVar = 123;
         myIntVar = -127;
+        myArray = [11,12,13,14];
     }
 
     function getName() view public returns(string memory){
@@ -50,5 +52,9 @@ contract Identity{
     
     function setName(string memory newName) public{
         name = newName;
+    }
+
+    function setArray(uint8 index, uint value) public{
+        myArray[index] = value;
     }
 }

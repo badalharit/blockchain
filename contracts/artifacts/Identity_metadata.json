@@ -44,6 +44,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getArrayLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getName",
 				"outputs": [
 					{
@@ -220,11 +233,11 @@
 	},
 	"sources": {
 		"contracts/identity.sol": {
-			"keccak256": "0xdbc7da37cdcab0e533fd2890da2044a7756cbe9ee71678eb9a018f7a9ba59e25",
+			"keccak256": "0x77bd1a8398e2799557e7dfdb0ca7e27d6dfe088185cb2a08a9a3ab81c50e8f27",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://54ca4dcd73efa44e422f40490fd616b46f1f8357012daf61eb52339f71482d9e",
-				"dweb:/ipfs/QmS71eG1C4e9LT9t9tLbiQonb7wU8z4HfVx6t7FzPz9Hb8"
+				"bzz-raw://a9510a00d3a6efe9f4c6760dee3911d6048ff2d15e2366700ab005294153c42b",
+				"dweb:/ipfs/QmU1HmBaZfkeB6yVquof1crFNNf7oUERuihSmKmcTQ8Ltt"
 			]
 		}
 	},

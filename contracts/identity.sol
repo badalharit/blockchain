@@ -57,4 +57,8 @@ contract Identity{
     function setArray(uint8 index, uint value) public{
         myArray[index] = value;
     }
+    
+    function getArrayLength() public view returns(uint){
+        return myArray.length;
+    }
 }

@@ -70,6 +70,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "myIntVar",
+				"outputs": [
+					{
+						"internalType": "int8",
+						"name": "",
+						"type": "int8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "name",
 				"outputs": [
 					{
@@ -120,9 +133,9 @@
 				"name": "stateVar",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint16",
 						"name": "",
-						"type": "uint256"
+						"type": "uint16"
 					}
 				],
 				"stateMutability": "view",
@@ -170,11 +183,11 @@
 	},
 	"sources": {
 		"contracts/identity.sol": {
-			"keccak256": "0xc3543354416a93ee54aba9a99b85b6aefb74327cbe39bb562e0af717c5fe604f",
+			"keccak256": "0xc908334e216c36f263dcd00c87dbddf3370590148ccb1d5176267f50290da466",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c3bc4c8274fef294cbed0ba8ece4c74a7096d1a472fe4a1bf338a5cc958f2121",
-				"dweb:/ipfs/QmZUL5RFEKLqhszmqjSS8rByM4tBWMmD214DQC71SfvmGF"
+				"bzz-raw://e7893d166a4b0a95160aa85e00e54acc5139529a8788e4928d9308f45abc0250",
+				"dweb:/ipfs/QmVxQnetoqQNSuN5QJwEfciYEjXs3zzb6aq83VMA6KLtGr"
 			]
 		}
 	},

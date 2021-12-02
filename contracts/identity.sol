@@ -5,12 +5,14 @@ pragma solidity >=0.5.0 <0.9.0;
 contract Identity{
     string public name;
     uint age = 10; // state variable & unsigned integer
-    uint public stateVar; // state variable
+    uint16 public stateVar; // state variable
+    int8 public myIntVar;
 
     constructor(string memory yourName){
         name = yourName;
         age = 26;
         stateVar = 123;
+        myIntVar = -127;
     }
 
     function getName() view public returns(string memory){

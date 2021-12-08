@@ -9,6 +9,9 @@ contract Identity{
     int8 public myIntVar;
     uint[4] public staticArray;
     uint[] public dynamicArray;
+    bytes2 public b2;
+    bytes3 public b3;
+
 
     constructor(string memory yourName){
         name = yourName;
@@ -73,5 +76,10 @@ contract Identity{
 
     function popElementFromDynamicArray() public{
         dynamicArray.pop();
+    }
+
+    function setBytesArrayVar() public{
+        b2 = 'cf';
+        b3 = 'abd';
     }
 }

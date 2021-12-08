@@ -7,14 +7,15 @@ contract Identity{
     uint age = 10; // state variable & unsigned integer
     uint16 public stateVar; // state variable
     int8 public myIntVar;
-    uint[4] public myArray;
+    uint[4] public staticArray;
+    uint[] public dynamicArray;
 
     constructor(string memory yourName){
         name = yourName;
         age = 26;
         stateVar = 123;
         myIntVar = -127;
-        myArray = [11,12,13,14];
+        staticArray = [11,12,13,14];
     }
 
     function getName() view public returns(string memory){
@@ -55,10 +56,22 @@ contract Identity{
     }
 
     function setArray(uint8 index, uint value) public{
-        myArray[index] = value;
+        staticArray[index] = value;
     }
     
-    function getArrayLength() public view returns(uint){
-        return myArray.length;
+    function getStaticArrayLength() public view returns(uint){
+        return staticArray.length;
+    }
+
+    function getDynamicArrayLength() public view returns(uint){
+        return dynamicArray.length;
+    }
+
+    function pushElementInDynamicArray(uint item) public{
+        dynamicArray.push(item);
+    }
+
+    function popElementFromDynamicArray() public{
+        dynamicArray.pop();
     }
 }

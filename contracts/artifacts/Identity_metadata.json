@@ -20,6 +20,25 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "dynamicArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "newAge",
 						"type": "uint256"
 					}
@@ -44,7 +63,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getArrayLength",
+				"name": "getDynamicArrayLength",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -70,7 +89,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getter",
+				"name": "getStaticArrayLength",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -82,14 +101,8 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "myArray",
+				"inputs": [],
+				"name": "getter",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -124,6 +137,26 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "popElementFromDynamicArray",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "item",
+						"type": "uint256"
+					}
+				],
+				"name": "pushElementInDynamicArray",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -192,6 +225,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "staticArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "store",
 				"outputs": [
@@ -233,11 +285,11 @@
 	},
 	"sources": {
 		"contracts/identity.sol": {
-			"keccak256": "0x77bd1a8398e2799557e7dfdb0ca7e27d6dfe088185cb2a08a9a3ab81c50e8f27",
+			"keccak256": "0x757f137e1a1544e906ea1370b7421a3648bacc8aad10e662270f80cf599fa3c0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a9510a00d3a6efe9f4c6760dee3911d6048ff2d15e2366700ab005294153c42b",
-				"dweb:/ipfs/QmU1HmBaZfkeB6yVquof1crFNNf7oUERuihSmKmcTQ8Ltt"
+				"bzz-raw://105e86005feb59b895fb3938cae7dc32687f20750b9b6e9bd5b783e8a8ae268e",
+				"dweb:/ipfs/QmYC8BZYQYo3LWrheJnLUqXUXAWrKzU3rqUSiCdA7CBjSv"
 			]
 		}
 	},

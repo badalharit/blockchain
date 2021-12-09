@@ -11,7 +11,7 @@ contract Identity{
     uint[] public dynamicArray;
     bytes2 public b2;
     bytes3 public b3;
-
+    bytes public dynamicBytesArray='a';
 
     constructor(string memory yourName){
         name = yourName;
@@ -81,5 +81,13 @@ contract Identity{
     function setBytesArrayVar() public{
         b2 = 'cf';
         b3 = 'abd';
+    }
+
+    function pushDynamicBytesArray() public {
+        dynamicBytesArray.push('b');
+    }
+
+    function getDynamicBytesArray(uint i) public view returns(bytes1){
+        return dynamicBytesArray[i];
     }
 }

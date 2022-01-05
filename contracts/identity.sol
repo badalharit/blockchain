@@ -15,6 +15,11 @@ contract Identity{
     uint[3] public myArray;
     uint public count;
     bool flag;
+    struct student{
+        uint roll_no;
+        string name;
+    }
+    student public r1;
 
     constructor(string memory yourName){
         name = yourName;
@@ -132,5 +137,9 @@ contract Identity{
         string memory response;
         flag == false ? response = "Flag is FALSE" : response = "Flag is TRUE";
         return response;
+    }
+
+    function students(uint _roll_no, string memory _name) public{
+        r1 = student({roll_no:_roll_no,name:_name});
     }
 }

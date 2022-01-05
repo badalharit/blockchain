@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "r1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "roll_no",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_roll_no",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "students_list",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/students.sol": "students"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/students.sol": {
+			"keccak256": "0xf0dd5666e6fe52d0ed70870264edd25fee98b11ce5dd887fc86243023008edc0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://357495b828bd75ed7fae840d996d056c040eca720e1c67a636f3df31450aaa9e",
+				"dweb:/ipfs/QmQFCRNZzmwxHe9heWZQB7cxtv7yy2ZiTSLTaGAcCBTjqC"
+			]
+		}
+	},
+	"version": 1
+}

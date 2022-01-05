@@ -304,6 +304,24 @@
 			},
 			{
 				"inputs": [],
+				"name": "r1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "roll_no",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "setAge",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -407,6 +425,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_roll_no",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "students",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "whileLoop",
 				"outputs": [],
@@ -442,11 +478,11 @@
 	},
 	"sources": {
 		"contracts/identity.sol": {
-			"keccak256": "0x904e91e86f44decfa31ce003f57ca6db9b7f11906447284c40ac3e123e70dac3",
+			"keccak256": "0xe052e64438d447c3b64730ec0c85f29fb64dad20604019f19de99256a4461e26",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ef73f614d67b4afdc79b17fb0a7ec12451f93d14b1284265bcf2e38ae28c2932",
-				"dweb:/ipfs/QmVUgZZA1WvVAVPydy3GyE5hWb8jJeKyxErSwTmSNP8caq"
+				"bzz-raw://474b3dd009ceedb2da412393b14925fa231e4b2cf9bed9f35cfb4bfe732028ba",
+				"dweb:/ipfs/QmTAZnHDr8JMj9u1VUuPHktbJhmYNJvs6SEcfr1jAyEiVB"
 			]
 		}
 	},

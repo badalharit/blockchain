@@ -218,6 +218,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "myVar",
+						"type": "int256"
+					}
+				],
+				"name": "myConditions",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "myIntVar",
 				"outputs": [
@@ -410,11 +429,11 @@
 	},
 	"sources": {
 		"contracts/identity.sol": {
-			"keccak256": "0x4484e6229b928753b6e64dce5d420647158fe656d569c3f342386946e4804dbe",
+			"keccak256": "0x8737edf8505343ac8d4350f2a621cf0322060027c890698e6ef27031ac62aefb",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://6e1e416f5d3fe1e404614ca6f7b505f928c8aa0644f3aa301877fa510ac266a8",
-				"dweb:/ipfs/QmU8H8RKGrWfEeGPMRvhkzpiUfoeH7KsXbJWDat4faxcK5"
+				"bzz-raw://8b2558027a1fa40c6c454c537aedc0f5e146b9194f69ad865fcec242e677bba2",
+				"dweb:/ipfs/QmToZFUi9bBLApMP92UTc67dt7KEp4PN9mCFdrJ7nfiAfe"
 			]
 		}
 	},

@@ -113,4 +113,17 @@ contract Identity{
             count += 1;
         }while(count < myArray.length);
     }
+
+    function myConditions(int myVar) public pure returns(string memory){
+        string memory response;
+
+        if(myVar > 0){
+            response = "Your variable hold's a (+)ve value";
+        }else if(myVar < 0){
+            response = "Your variable hold's a (-)ve value";
+        }else{
+            response = "Your variable is containing numeric zero(0)";
+        }
+        return response;
+    }
 }

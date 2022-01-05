@@ -44,6 +44,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "checkFlag",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "count",
 				"outputs": [
 					{
@@ -429,11 +442,11 @@
 	},
 	"sources": {
 		"contracts/identity.sol": {
-			"keccak256": "0x8737edf8505343ac8d4350f2a621cf0322060027c890698e6ef27031ac62aefb",
+			"keccak256": "0x904e91e86f44decfa31ce003f57ca6db9b7f11906447284c40ac3e123e70dac3",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8b2558027a1fa40c6c454c537aedc0f5e146b9194f69ad865fcec242e677bba2",
-				"dweb:/ipfs/QmToZFUi9bBLApMP92UTc67dt7KEp4PN9mCFdrJ7nfiAfe"
+				"bzz-raw://ef73f614d67b4afdc79b17fb0a7ec12451f93d14b1284265bcf2e38ae28c2932",
+				"dweb:/ipfs/QmVUgZZA1WvVAVPydy3GyE5hWb8jJeKyxErSwTmSNP8caq"
 			]
 		}
 	},

@@ -14,6 +14,7 @@ contract Identity{
     bytes public dynamicBytesArray='a';
     uint[3] public myArray;
     uint public count;
+    bool flag;
 
     constructor(string memory yourName){
         name = yourName;
@@ -124,6 +125,12 @@ contract Identity{
         }else{
             response = "Your variable is containing numeric zero(0)";
         }
+        return response;
+    }
+
+    function checkFlag() public view returns(string memory){
+        string memory response;
+        flag == false ? response = "Flag is FALSE" : response = "Flag is TRUE";
         return response;
     }
 }

@@ -12,6 +12,8 @@ contract Identity{
     bytes2 public b2;
     bytes3 public b3;
     bytes public dynamicBytesArray='a';
+    uint[3] public myArray;
+    uint public count;
 
     constructor(string memory yourName){
         name = yourName;
@@ -89,5 +91,26 @@ contract Identity{
 
     function getDynamicBytesArray(uint i) public view returns(bytes1){
         return dynamicBytesArray[i];
+    }
+
+    function whileLoop() public{
+        while(count < myArray.length){
+            myArray[count] = count+1;
+            count += 1;
+        }
+    }
+
+    function forLoop() public{
+        for(uint i = count; i < myArray.length; i++){
+            myArray[count] = count+1;
+            count += 1;
+        }
+    }
+
+    function doWhile() public{
+        do{
+            myArray[count] = count+1;
+            count += 1;
+        }while(count < myArray.length);
     }
 }

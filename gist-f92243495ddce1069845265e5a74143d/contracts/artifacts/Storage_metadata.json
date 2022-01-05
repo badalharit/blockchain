@@ -60,7 +60,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1_Storage.sol": "Storage"
+			"gist-f92243495ddce1069845265e5a74143d/contracts/1_Storage.sol": "Storage"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -74,7 +74,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1_Storage.sol": {
+		"gist-f92243495ddce1069845265e5a74143d/contracts/1_Storage.sol": {
 			"keccak256": "0xb6ee9d528b336942dd70d3b41e2811be10a473776352009fd73f85604f5ed206",
 			"license": "GPL-3.0",
 			"urls": [

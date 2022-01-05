@@ -43,6 +43,26 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "doWhile",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -83,6 +103,13 @@
 					}
 				],
 				"name": "dynamicSetter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "forLoop",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -161,6 +188,25 @@
 			{
 				"inputs": [],
 				"name": "getter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "myArray",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -327,6 +373,13 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "whileLoop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -357,11 +410,11 @@
 	},
 	"sources": {
 		"contracts/identity.sol": {
-			"keccak256": "0x1413f0d3e81752c9d8bc6e27d118281e3a6c96bed2b7bdb4962e9384142d9535",
+			"keccak256": "0x4484e6229b928753b6e64dce5d420647158fe656d569c3f342386946e4804dbe",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8d2a69d9d3447fc371644cb483fe86ceabe29cc43c8660c2fc83e49162a240c8",
-				"dweb:/ipfs/QmevanCDej5pr4jvsEgTaEWoMb8dg5j3Rv9k7BPfsvnapR"
+				"bzz-raw://6e1e416f5d3fe1e404614ca6f7b505f928c8aa0644f3aa301877fa510ac266a8",
+				"dweb:/ipfs/QmU8H8RKGrWfEeGPMRvhkzpiUfoeH7KsXbJWDat4faxcK5"
 			]
 		}
 	},

@@ -52,6 +52,43 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "hashAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "wallet_address",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -82,11 +119,11 @@
 	},
 	"sources": {
 		"contracts/lottery.sol": {
-			"keccak256": "0x0b90292958394edbaad7359cb8dc78275650c18f3de7254810f5ad9f8c2f024c",
+			"keccak256": "0x80a20200b9334c0f5d68ea40d92491ba7cf8f8c6832442f422598a3d0fcef32c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b5d60fbe8392f0885a0fe05a83c3927dfdbf5a24ba5ccd5ff7ac3ae5dfbce5bd",
-				"dweb:/ipfs/QmWPXa1aHy5AY5t3g5jFe5nHkniQydeTF7TaQzejYkQccr"
+				"bzz-raw://0f580ca4d519abff3a1d85625c6308418beebe0d1803f896700aa224f91d72ff",
+				"dweb:/ipfs/Qmdu2c3pjgZ2F2bhCesVUaJtM41k1wmPYjTZa38Ps84w7r"
 			]
 		}
 	},

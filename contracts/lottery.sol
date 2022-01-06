@@ -11,6 +11,8 @@ contract the_lottery{
     enum user{allowed,not_allowed,wait}
     crypto_user public badal;
     
+    mapping (string=>string) public wallet_address;
+
     constructor(){
         badal.name = "Badal Harit";
         badal.can_redeem = true;
@@ -28,6 +30,10 @@ contract the_lottery{
             badal.account_balance += lottery_amt;
             badal.can_redeem = false;
         }
+    }
+
+    function setter(string memory hashAddress,string memory name) public{
+        wallet_address[hashAddress] = name;
     }
     
 }

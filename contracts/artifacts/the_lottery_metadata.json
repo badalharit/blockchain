@@ -12,19 +12,6 @@
 			},
 			{
 				"inputs": [],
-				"name": "allocate_lottery",
-				"outputs": [
-					{
-						"internalType": "enum the_lottery.user",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "badal",
 				"outputs": [
 					{
@@ -38,9 +25,9 @@
 						"type": "uint256"
 					},
 					{
-						"internalType": "string",
-						"name": "status",
-						"type": "string"
+						"internalType": "bool",
+						"name": "can_redeem",
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -95,11 +82,11 @@
 	},
 	"sources": {
 		"contracts/lottery.sol": {
-			"keccak256": "0xcce8a8587d59e90de01e4e0943e1c722453be765510f5c4d464a71708643c257",
+			"keccak256": "0x0b90292958394edbaad7359cb8dc78275650c18f3de7254810f5ad9f8c2f024c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://97f15c9d7a7061644ca609ae77024ae0e807a679b59ea8060f8ac6803fd6c3ff",
-				"dweb:/ipfs/QmVuEGJPSnk6Ec9uv3gAAbZVCjhS9xRXA2JK7L8tELQB2i"
+				"bzz-raw://b5d60fbe8392f0885a0fe05a83c3927dfdbf5a24ba5ccd5ff7ac3ae5dfbce5bd",
+				"dweb:/ipfs/QmWPXa1aHy5AY5t3g5jFe5nHkniQydeTF7TaQzejYkQccr"
 			]
 		}
 	},

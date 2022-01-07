@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "block_no",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "msgSender",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/globalFun.sol": "usingGlobalFun"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/globalFun.sol": {
+			"keccak256": "0x27fd92dfb34ff44ffcceaabc8030fb5ccc2ab62826c60fe24a9161b73b4f1ab2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://50e71ba4c9c68d943e531743c306d0bbf4c7ca6c1e4878f4218e60196c889dec",
+				"dweb:/ipfs/Qmeunz9URTu59xh5zihu5HfC7JQf7x9zPJXZnCMxudohdF"
+			]
+		}
+	},
+	"version": 1
+}

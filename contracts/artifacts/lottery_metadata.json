@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "hashAddress",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "cust_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "cust_country",
+						"type": "string"
+					}
+				],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "user",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "country",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/lottery_v2.sol": "lottery"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/lottery_v2.sol": {
+			"keccak256": "0xa7f0d5d9af4a50a14fe96bc7e90f140d42e72e3babb7074cc871f19f7d6b5c97",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://021c0ac6ed87bc63866052f2aa37021aaf51297c74423b5e0575700b0460577b",
+				"dweb:/ipfs/QmZc9tCEroS6R6qYsas66xiMdfAquXQbw1WULdHduKzLNR"
+			]
+		}
+	},
+	"version": 1
+}
